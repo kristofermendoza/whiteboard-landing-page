@@ -1,3 +1,107 @@
-h1 {
-    color: red;
+@import url('https://fonts.googleapis.com/css2?family=Readex+Pro:wght@300;400;500;700&display=swap');
+
+/* color scheme: #BAD9D3 (mint) / Media and small text (pictures, pgs, etc.)
+                #9AC7BE (dark mint) / BIG TEXT (headers, titles, navbar, buttons)
+*/
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Readex Pro', serif;
 }
+
+nav {
+    background-color: white;
+}
+
+img {
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: slategray
+}
+
+ul {
+    list-style-type: none;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+nav {
+    height: 80px;
+    display: flex;
+}
+
+.navbar__container {
+    width: 100%;
+    max-width: 1200px;
+    padding: 0 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.white {
+    color: white;
+}
+
+.nav__logo {
+    display: block;
+    width: auto;
+    height: 64px;
+}
+
+.navbar__links {
+    display: flex;
+    align-items: center;
+}
+
+.navbar__link {
+    margin-left: 24px;
+}
+
+.login__btn {
+    border: 2px solid grey;
+    background-color: #bad9d3;
+    border-radius: 4px;
+    padding: 4px;
+}
+
+header {
+    background-color: #9ac7be;
+    height: calc(32vh + 200px);
+}
+
+.header__container {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 80px 16px;
+}
+
+.header__desc {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header__img--wrapper {
+    width: 100%;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 56px;
+    text-align: center;
+    margin-bottom: 32px ;
+}
+
